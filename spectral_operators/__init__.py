@@ -5,6 +5,13 @@ This package provides the public interface for OperatorLab's
 spectral-operator functionality.
 """
 
+from operator_core import (
+    LinearOperator,
+    Norm,
+    OperatorFactory,
+    OperatorError,
+)
+
 from .adelic import (
     AdelicAnalyzer,
     AdelicBuilder,
@@ -31,7 +38,7 @@ from .constants import (
     WeightRule,
 )
 
-from .core import (
+from operator_core import (
     DimensionMismatchError,
     Field,
     LinearOperator,

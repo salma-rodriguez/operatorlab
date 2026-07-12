@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from spectral_operators.core.algebra import LinearOperator
+from operator_core.algebra import LinearOperator
 from spectral_operators.operators import AdelicOperator
 from spectral_operators.adelic import (
     LocalComponent,

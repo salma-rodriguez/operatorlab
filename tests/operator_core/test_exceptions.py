@@ -1,4 +1,4 @@
-from spectral_operators.core.exceptions import (
+from operator_core.exceptions import (
     DimensionMismatchError,
     InvalidOperatorError,
     NonSquareOperatorError,
