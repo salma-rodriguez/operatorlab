@@ -2,4 +2,12 @@
 Stochastic operator constructions and analysis tools for OperatorLab.
 """
 
-__all__: list[str] = []
+from .operators import (
+    StochasticConvention,
+    StochasticOperator,
+)
+
+__all__ = [
+    "StochasticConvention",
+    "StochasticOperator",
+]
