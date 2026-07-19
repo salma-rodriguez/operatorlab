@@ -7,6 +7,7 @@ from .generators import MarkovGenerator
 from .hitting import HittingAnalyzer
 from .kernels import Kernel, StochasticKernel
 from .markov import MarkovOperator
+from .monte_carlo import MonteCarloResult
 from .operators import (
     StochasticConvention,
     StochasticOperator,
@@ -19,6 +20,7 @@ __all__ = [
     "Kernel",
     "MarkovGenerator",
     "MarkovOperator",
+    "MonteCarloResult",
     "StochasticAnalyzer",
     "StochasticConvention",
     "StochasticKernel",
